@@ -102,3 +102,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/notebooks/factor_info.csv
+/notebooks/wjh_get_factors.xlsx

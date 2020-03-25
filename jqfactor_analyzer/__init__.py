@@ -32,7 +32,6 @@ def analyze_factor(
             - 'ln_cmktcap': 按流通市值的对数加权
         max_loss: 因重复值或nan值太多而无效的因子值的最大占比, 默认为 0.25
     """
-
     dataapi = DataApi(industry=industry, weight_method=weight_method)
     return FactorAnalyzer(factor,
                           quantiles=quantiles,
